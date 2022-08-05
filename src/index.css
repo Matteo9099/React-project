@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.ms_overflow{
+  overflow: hidden;
+  overflow-x: scroll;
+}
+
+.row::-webkit-scrollbar{
+  height: 10px;
+  background: red;
+  /* background-color: rgb(0, 0, 0); */
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(218, 255, 6); 
+  border-radius: 10px;
+}
+
+img{
+  height: 200px;
+  object-fit: cover;
+}
